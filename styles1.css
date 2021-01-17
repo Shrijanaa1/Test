@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('dog.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav-menu{
+    margin-top: 30px;
+    list-style: none;
+    float: right;
+}
+
+.nav-menu li{
+    display: inline-block;
+}
+
+.nav-menu li a{
+    padding: 5px 20px;
+    text-decoration: none;
+    color:turquoise;
+    font-size: 20px;
+    font-family: "Verdana","Sans-Serif";
+}
+
+.homebtn a{
+    border:1px solid gray;
+    background-color: white;
+}
+
+.nav-menu li a:hover{
+    border:1px solid gray;
+    background-color: white;
+}
+
+.tagline{
+    position: absolute;
+    width:1200px;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+h1{
+    text-align: center;
+    font-family: "Verdana","Sans-Serif";
+    font-size: 50px;
+    color: white;
+    margin-top: 275px;
+}
+
+.adopt{
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+.bttn{
+    border:1px solid white;
+    color:yellow;
+    text-decoration: none;
+    padding:10px 30px;
+    font-family: "Verdana","Sans-Serif";
+    font-size: 22px;
+}
+
+.adopt a:hover{
+    background-color: burlywood;
+}

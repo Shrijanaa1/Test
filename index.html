@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Sometext"></p>
+    <script>  //`` turns into string
+        let students = `[
+            {
+                "name": "Shrijana",
+                "age": 10,
+                "height":130
+            },
+            {
+                "name": "Bipana",
+                "age": 15,
+                "height":140
+            }
+        ]`
+        
+        console.log(JSON.parse(students));
+        console.log(JSON.parse(students)[0]); //gets first student
+    
+    </script>
+    
+</body>
+</html>
